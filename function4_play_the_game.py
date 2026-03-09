@@ -5,7 +5,7 @@ Generate random scores without ties. Return W or L.
 """
 import random
 
-def play_the_game(sHomeTeam, sAwayTeam):
+def play_game(sHomeTeam, sAwayTeam):
 
     while (True) :
         iHomeTeamScore = random.randrange(0,10,1)
